@@ -9,7 +9,7 @@ fast-nix-shell is **fast** [nix-shell](https://nixos.org/manual/nix/stable/comma
 
 ## Usage/Example
 ```console
-[user@host:~]$ ${HELLO} | cowsay -f www
+[user@host:~]$ ${HELLO} | cowsay -d -f www -p
 The program 'cowsay' is not in your PATH. It is provided by several packages.
 
 [user@host:~]$ cd ~/fast-nix-shell
