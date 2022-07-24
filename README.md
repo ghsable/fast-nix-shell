@@ -15,14 +15,14 @@ The program 'cowsay' is not in your PATH. It is provided by several packages.
 [user@host:~]$ cd ~/fast-nix-shell
 direnv: loading ~/fast-nix-shell/.envrc
 
-[user@host:~/fast-nix-shell]$ ${HELLO} | cowsay -f www
- ____________________
-< fortune: not found >
- --------------------
+[user@host:~/fast-nix-shell]$ ${HELLO} | cowsay -d -f www -t
+ _______________
+< VMS must die! >
+ ---------------
         \   ^__^
-         \  (oo)\_______
+         \  (--)\_______
             (__)\       )\/\
-                ||--WWW |
+             U  ||--WWW |
                 ||     ||
 
 [user@host:~/fast-nix-shell]$ cd ..
