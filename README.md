@@ -1,4 +1,5 @@
 # fast-nix-shell
+[![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)  
 fast-nix-shell is **fast** [nix-shell](https://nixos.org/manual/nix/stable/command-ref/nix-shell.html).
 
 ## Requestment
