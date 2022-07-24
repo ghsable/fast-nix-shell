@@ -2,8 +2,8 @@
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
-    fortune
     cowsay
+    fortune
   ];
 
   shellHook = ''
