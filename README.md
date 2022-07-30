@@ -30,7 +30,9 @@ direnv: loading ~/fast-nix-shell/.envrc
 [user@host:~/fast-nix-shell]$ cd ..
 direnv: unloading
 
-[user@host:~]$
+[user@host:~]$ ${HELLO}
+[user@host:~]$ cowsay -d -f www -p
+The program 'cowsay' is not in your PATH. It is provided by several packages.
 ```
 
 ## Troubleshooting
